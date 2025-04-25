@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: "Jost", sans-serif;
+}
+.head{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: 0 20px;
+    height: 20vw;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: height 0.5s;
+    color: white;
+    background-color: seagreen;
+}
+section:hover{
+    height: 22.5vw;
+}
+.hide{
+    display: none;
+    color: seagreen!important;
+    transition: color 0.5s;
+}
+section:hover .hide{
+    display: block;
+    color:white!important;
+}
+.button{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 20px 20px;
+    height: 20vw;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);  
+    color: white;
+    background-color: rgb(56, 172, 108);
+    float: left;
+    width: 35vw;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: height 0.5s, width 0.5s, box-shadow 0.5s;
+}
+.button:hover{
+    height: 22.5vw;
+    width: 40vw;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+.centerflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 0 20px;
+    height: 15vw!important;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: white;
+    background-color: seagreen;
+}
